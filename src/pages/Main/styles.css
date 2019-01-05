@@ -1,0 +1,44 @@
+
+
+.main-buttonLink{
+  position:absolute;
+  width:90%;
+  max-width:600px;
+  height:4em;
+  max-height:30%;
+  font-size:2em;
+  color:#222;
+  font-weight:bold;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  box-shadow:-1px 1px 4px 2px rgba(0,0,0,0.16);
+  border-radius:20px;
+}
+.main-record{
+  background:#EDA;
+  color:#653;
+}
+.main-record:hover{
+  background:#DC9;
+}
+.main-guess{
+  background:#BFC;
+  color:#152;
+}
+.main-guess:hover{
+  background:#AEB;
+}
+.main-buttonLink:focus:hover{
+  outline:none;
+  box-shadow:none;
+}
+
+@media only screen and (max-width: 720px) {
+  .main-buttonLink{
+    height:48%;
+    max-height:49%;
+    font-size:7vw;
+  }
+}
